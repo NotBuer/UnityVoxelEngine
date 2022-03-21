@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc20824683accec4383d1af53a478dfb, type: 3}
+  m_Name: Block Data
+  m_EditorClassIdentifier: 
+  textureSizeX: 0.11111111
+  textureSizeY: 0.1
+  blockDataList:
+  - blockType: 0
+    upsideUV: {x: 0, y: 0}
+    downsideUV: {x: 0, y: 0}
+    sidesUV: {x: 0, y: 0}
+    isSolid: 0
+    generatesCollider: 0
+  - blockType: 1
+    upsideUV: {x: 7, y: 4}
+    downsideUV: {x: 7, y: 4}
+    sidesUV: {x: 7, y: 4}
+    isSolid: 1
+    generatesCollider: 1
+  - blockType: 2
+    upsideUV: {x: 6, y: 8}
+    downsideUV: {x: 7, y: 4}
+    sidesUV: {x: 7, y: 5}
+    isSolid: 1
+    generatesCollider: 1
+  - blockType: 3
+    upsideUV: {x: 3, y: 5}
+    downsideUV: {x: 3, y: 5}
+    sidesUV: {x: 3, y: 5}
+    isSolid: 1
+    generatesCollider: 1
+  - blockType: 4
+    upsideUV: {x: 3, y: 3}
+    downsideUV: {x: 3, y: 3}
+    sidesUV: {x: 3, y: 3}
+    isSolid: 1
+    generatesCollider: 1
+  - blockType: 5
+    upsideUV: {x: 0, y: 3}
+    downsideUV: {x: 0, y: 3}
+    sidesUV: {x: 0, y: 3}
+    isSolid: 0
+    generatesCollider: 0
