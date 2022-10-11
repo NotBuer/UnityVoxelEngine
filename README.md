@@ -1,2 +1,2 @@
 # UnityVoxelEngine
-Voxel based engine created in unity.
+Voxel based engine created in unity with learning purposes.
